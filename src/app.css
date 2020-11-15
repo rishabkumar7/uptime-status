@@ -1,4 +1,3 @@
-
 * {
   border: 0;
   margin: 0;
@@ -9,8 +8,8 @@
 }
 
 body {
-  background: #F6F8FA url(./assets/background.png) center top;
-  color: #3F4347;
+  background: #f6f8fa url(./assets/background1.jpg) center top;
+  color: #3f4347;
   font-size: 12px;
   font-family: sans-serif;
   line-height: 1;
@@ -29,20 +28,18 @@ a {
   padding: 0 10px;
 }
 
-
 #app {
   padding-top: 75px;
 }
-
 
 #header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
-  border-bottom: 1px solid #E3E4E6;
+  border-bottom: 1px solid #e3e4e6;
   z-index: 10;
 }
 
@@ -64,19 +61,18 @@ a {
 }
 
 #header .navi a {
-  color: #838B90;
+  color: #838b90;
   transition: color ease-out 300ms;
   margin-left: 15px;
 }
 
 #header .navi a:hover {
-  color: #4B9B5D;
+  color: #4b9b5d;
 }
 
-
 #uptime {
-  background: #FFF;
-  border: 1px solid #E3E4E6;
+  background: #fff;
+  border: 1px solid #e3e4e6;
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
   overflow: hidden;
@@ -84,7 +80,7 @@ a {
 
 #uptime .item {
   padding: 18px 20px;
-  border-bottom: 1px solid #E7E8E9;
+  border-bottom: 1px solid #e7e8e9;
 }
 
 #uptime .item:last-child {
@@ -97,7 +93,7 @@ a {
 }
 
 #uptime .item:hover {
-  background-color: #FFFDF5;
+  background-color: #fffdf5;
 }
 
 #uptime .meta {
@@ -115,7 +111,7 @@ a {
 #uptime .meta .name {
   font-size: 16px;
   line-height: 20px;
-  color: #5A606B;
+  color: #5a606b;
 }
 
 #uptime .meta .link {
@@ -140,17 +136,17 @@ a {
 
 #uptime .meta .status.ok {
   background-image: url(./assets/success.svg);
-  color: #28A745;
+  color: #28a745;
 }
 
 #uptime .meta .status.down {
   background-image: url(./assets/fail.svg);
-  color: #D9534F;
+  color: #d9534f;
 }
 
 #uptime .meta .status.unknow {
   background-image: url(./assets/question.svg);
-  color: #6A737D;
+  color: #6a737d;
 }
 
 #uptime .timeline {
@@ -171,15 +167,15 @@ a {
 }
 
 #uptime .timeline i.ok {
-  background: #9FD8AC;
+  background: #9fd8ac;
 }
 
 #uptime .timeline i.none {
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 
 #uptime .timeline i.down {
-  background: #F29571;
+  background: #f29571;
 }
 
 #uptime .tooltip {
@@ -192,18 +188,18 @@ a {
   display: flex;
   justify-content: space-between;
   line-height: 15px;
-  color: #999FA6;
+  color: #999fa6;
 }
 
 #footer {
   text-align: center;
   font-size: 12px;
   line-height: 1.8;
-  color: #999FA6;
+  color: #999fa6;
   padding: 20px 0px;
 }
 
 #footer a {
-  color: #58AD6A;
+  color: #58ad6a;
   font-weight: bold;
 }
