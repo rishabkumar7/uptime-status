@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'Uptime Status',
+  SiteName: 'Uptimy',
 
   // 站点链接
   SiteUrl: '/',
@@ -14,6 +14,7 @@ window.Config = {
     'm784490063-7b5da437e7f1e0d67613714d',
     'm784497419-de55aa09902ccb3ab22d548a',
     'm784496436-71a4bf7b1e3bdf7756be131b',
+    'ur743257-4c525facdac2c73a512a81aa',
   ],
 
   // 是否显示监测站点的链接
@@ -32,7 +33,7 @@ window.Config = {
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
+      url: 'https://github.com/rishabkumar7/uptime-status'
     }
   ]
 };
