@@ -17,7 +17,7 @@ const UptimeBlock = (props) => {
     }
     else {
       status = 'down';
-      text += ` Error ${data.down.times} 次，累计 ${formatDuration(data.down.duration)}，可用率 ${fixed(data.uptime)}%`;
+      text += ` Error ${data.down.times} Times, cumulative ${formatDuration(data.down.duration)},availability ${fixed(data.uptime)}%`;
     }
     return { status, text };
   }, [data]);
