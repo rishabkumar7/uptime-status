@@ -15,7 +15,7 @@ body {
   line-height: 1;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%vh 100%vh;
 }
 
 a {
@@ -60,6 +60,7 @@ a {
 
 #header .navi {
   font-size: 14px;
+  font-weight: bold;
 }
 
 #header .navi a {
@@ -202,6 +203,6 @@ a {
 }
 
 #footer a {
-  color: #58ad6a;
+  color: #fff;
   font-weight: bold;
 }
