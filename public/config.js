@@ -24,6 +24,10 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
+      text: 'Rishab',
+      url: 'https://rishabkumar.com'
+    },
+    {
       text: 'GitHub',
       url: 'https://github.com/rishabkumar7/uptime-status'
     }

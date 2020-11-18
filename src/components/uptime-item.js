@@ -18,8 +18,8 @@ const UptimeItem = (props) => {
 
   const total = useMemo(() => {
     return monitor.total.times
-      ? `Recently ${CountDays} Day Fault ${monitor.total.times} Times, cumulative ${formatDuration(monitor.total.duration)}，Average Availability ${monitor.average}%`
-      : `Recently ${CountDays} Day Availability ${monitor.average}%`;
+      ? `Recent ${CountDays} Day Fault ${monitor.total.times} Times, cumulative ${formatDuration(monitor.total.duration)}，Average Availability ${monitor.average}%`
+      : `Recent ${CountDays} Day Availability ${monitor.average}%`;
   }, [CountDays, monitor]);
 
   const initial = useMemo(() => {
@@ -42,7 +42,7 @@ const UptimeItem = (props) => {
       </div>
       <ReactTooltip className="tooltip" place="top" type="dark" effect="solid" />
       <div className="foot">
-        <span>Nowdays</span>
+        <span>Today</span>
         <span>{total}</span>
         <span>{initial.format('YYYY-MM-DD')}</span>
       </div>
