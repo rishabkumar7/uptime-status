@@ -24,7 +24,7 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: 'Rishab',
+      text: 'Home',
       url: 'https://rishabkumar.com'
     },
     {
