@@ -1,10 +1,10 @@
 window.Config = {
 
-  // 显示标题
-  SiteName: 'Public Status',
+  // Site Title
+  SiteName: 'Uptime Status',
 
-  // UptimeRobot Api Keys
-  // 支持 Monitor-Specific 和 Read-Only
+  // UptimeRobot API Keys
+  // Support Monitor-Specific Read-Only Keys
   ApiKeys: [
     'm784488775-dd1ad84b209c05f8e185c33e',
     'm784490063-7b5da437e7f1e0d67613714d',
@@ -12,13 +12,13 @@ window.Config = {
     'm784496436-71a4bf7b1e3bdf7756be131b',
   ],
 
-  // 日志天数
+  // Days
   CountDays: 90,
 
-  // 是否显示检测站点的链接
+  // Display link to sites
   ShowLink: true,
 
-  // 导航栏菜单
+  // Navigation
   Navi: [
     {
       text: 'Homepage',
@@ -26,11 +26,11 @@ window.Config = {
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
+      url: 'https://github.com/rishabkumar7/uptime-status'
     },
     {
       text: 'Blog',
-      url: 'https://abo.xyz/'
+      url: 'https://blog.rishabkumar.com/'
     },
   ],
 };

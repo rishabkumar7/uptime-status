@@ -23,8 +23,8 @@ function App() {
           ))}
         </div>
         <div id='footer'>
-          <p>基于 <Link to='https://uptimerobot.com/' text='UptimeRobot' /> 接口制作，检测频率 5 分钟</p>
-          <p>&copy; 2020 <Link to='https://status.org.cn/' text='STATUS.ORG.CN' />, Version {Package.version}</p>
+          <p>Based on <Link to='https://uptimerobot.com/' text='UptimeRobot' /> detection interval 5 minute.</p>
+          <p>&copy; 2024 <Link to ='https://rishabkumar.com' text='Rishab Kumar' /> fork of <Link to='https://status.org.cn/' text='STATUS.ORG.CN' />, Version {Package.version}</p>
         </div>
       </div>
     </>
