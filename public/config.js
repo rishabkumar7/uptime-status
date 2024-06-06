@@ -26,11 +26,11 @@ window.Config = {
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
+      url: 'https://github.com/rishabkumar7/uptime-status'
     },
     {
       text: 'Blog',
-      url: 'https://abo.xyz/'
+      url: 'https://blog.rishabkumar.com/'
     },
   ],
 };
