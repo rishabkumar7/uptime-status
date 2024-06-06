@@ -1,23 +1,24 @@
 # uptime-status
 
-一个基于 UptimeRobot API 的在线状态面板
+A Status page based UptimeRobot API.
+This project is fork of the [yb/uptime-status](https://github.com/yb/uptime-status) for translation to English.
 
 <img width="1152" alt="image" src="https://user-images.githubusercontent.com/25887822/178935137-6d23521d-5894-4fb8-922d-3575be4f7abc.png">
 
-## 事先准备
+## Prerequisites
 
-- 您需要先到 [UptimeRobot](https://uptimerobot.com/ "UptimeRobot") 添加站点监控，并在 My Settings 页面获取 API Key
-- 您需要拥有一个网站空间，常见的 Nginx / PHP 等空间即可，甚至是阿里云的 OSS 等纯静态空间也行
+- You need to add site monitoring on [UptimeRobot](https://uptimerobot.com/ "UptimeRobot") and get the API Key from the My Settings page.
+- You need to have a hosting provider, even static web-page hosting works.
 
-## 如何部署：
+## How to deploy:
 
-- 下载并解压缩：[uptime-status.zip](https://github.com/yb/uptime-status/releases/latest/download/uptime-status.zip "uptime-status.zip") 
-- 修改 `config.js` 文件：
-   - `SiteName`: 要显示的网站名称
-   - `ApiKeys`: 从 UptimeRobot 获取的 API Key，支持 Monitor-Specific API Keys 和 Read-Only API Key
-   - `CountDays`: 要显示的日志天数，建议 60 或 90，显示效果比较好
-   - `ShowLink`: 是否显示站点链接
-   - `Navi`: 导航栏的菜单列表
-- 将所有文件上传到网站空间
+- Download and unzip: [uptime-status.zip](https://github.com/yb/uptime-status/releases/latest/download/uptime-status.zip "uptime-status.zip") 
+- Modify the `config.js` file:
+   - `SiteName`: The name of the website to display
+   - `ApiKeys`: The API Key obtained from UptimeRobot, supports Monitor-Specific API Keys and Read-Only API Key
+   - `CountDays`: The number of log days to display, 60 or 90 are recommended for better display
+   - `ShowLink`: Whether to display site links
+   - `Navi`: The menu list of the navigation bar
+- Upload all files to the hosting service.
 
-⚠️ 如果没有修改代码的需求，您不需要 git clone 本项目，只需要下载 Release 的文件包即可。
+⚠️ If you do not need to modify the code, you do not need to git clone this project, you only need to download the Release file package.
