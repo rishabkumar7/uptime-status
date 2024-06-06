@@ -12,7 +12,7 @@ This project is fork of the [yb/uptime-status](https://github.com/yb/uptime-stat
 
 ## How to deploy:
 
-- Download and unzip: [uptime-status.zip](https://github.com/yb/uptime-status/releases/latest/download/uptime-status.zip "uptime-status.zip") 
+- Download and unzip: [uptime-status.zip](https://github.com/rishabkumar7/uptime-status/releases/latest/download/uptime-status-en.zip "uptime-status-en.zip") 
 - Modify the `config.js` file:
    - `SiteName`: The name of the website to display
    - `ApiKeys`: The API Key obtained from UptimeRobot, supports Monitor-Specific API Keys and Read-Only API Key
